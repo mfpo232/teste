@@ -25,6 +25,8 @@
         }
     header div a:hover {
         color: rgb(25, 0, 255);
-        transition: color 700ms
+        font-size: 23px;
+        transition: color 700ms;
+        border-bottom: 5px solid rgb(25, 0, 255);
     }
     
