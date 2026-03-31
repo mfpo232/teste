@@ -1,0 +1,68 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        *{margin: 0;
+          border:0;
+          padding: 0
+        }
+        body{
+            background-color: #252525;
+        }
+        header {
+            padding: 32px;
+            border-bottom: 2px solid var(--subcor);
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        .links {
+            text-align: center;
+        }
+        .links a {
+            color: white;
+            font-size: 20px;
+            line-height: 30px;
+            margin: 0 16px;
+            text-decoration: none;
+            font-family: 'roboto',sans-serif; 
+        }
+        .links a:hover {
+        color: rgb(25, 0, 255);
+        font-size: 23px;
+        transition: color 700ms;
+        border-bottom: 5px solid rgb(25, 0, 255);
+    }
+    #box {
+        text-align: center;
+        padding: 32px;
+        color:white
+    }
+    #box img {
+        border-radius: 50%;
+        border: 5px solid palevioletred;
+        margin-bottom: 32px;
+    }
+    #box h1 {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: bold;
+        color:rgb(223, 57, 57)
+    }
+    #box h2 {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: normal;
+        margin-top: 8px;
+        opacity: 0.8;
+        color:white
+    }
+    #box p {
+        max-width: 500px;
+        margin: 32px auto;
+        font-size: 24px;
+        line-height: 34px;
+        color:white
+    }
+    :root{
+    --subcor: #333
+    }
+    #link_de_baixo{
+        margin-top: 20px;
+    }
